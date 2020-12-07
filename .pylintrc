@@ -1,0 +1,10 @@
+[MASTER]
+
+disable=cyclic-import,
+        missing-docstring,
+        wrong-import-position,
+        too-few-public-methods,
+        duplicate-code,
+        import-outside-toplevel
+
+generated-members=db.session.*

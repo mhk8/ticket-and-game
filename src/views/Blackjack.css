@@ -1,0 +1,53 @@
+.blackjack{
+    text-align: center;
+    background: radial-gradient(#900, #600, #300, #100);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+.blackjack h3{
+    font-family: 'Kaushan Script', cursive;
+    color: #F0E68C;
+    font-size: 30px;
+}
+.blackjack .rule-box{
+    text-align: left;
+    padding: 20px;
+    background: #0d0d0d40;
+    margin-top: 30px;
+}
+.blackjack .rule-box h4{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin-bottom: 10px;
+}
+.blackjack .rule-box p{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+}
+.blackjack input{
+    margin-top: 20px;
+}
+
+.blackjack h6{
+    margin-top: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #f76600;
+}
+
+.blackjack .blackjack-play{
+    margin-top: 20px;
+    background: #595530;
+    padding: 8px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.blackjack .blackjack-play:hover{
+    background: #343019;
+}

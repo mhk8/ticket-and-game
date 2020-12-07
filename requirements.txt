@@ -1,0 +1,15 @@
+eventlet
+Flask
+Flask-Migrate
+Flask-SocketIO
+Flask-SQLAlchemy
+psycopg2
+pylint
+pylint-flask
+pylint-flask-sqlalchemy
+python-dotenv
+requests
+stripe
+alchemy_mock
+Flask-Session
+rfc3987

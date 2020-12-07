@@ -1,0 +1,45 @@
+.Coinflip {
+    text-align: center;
+    background: radial-gradient(#900, #600, #300, #100);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.coinflipgif {
+    height: 200px;
+}
+
+.Coinflip h3{
+    font-family: 'Kaushan Script', cursive;
+    color: #F0E68C;
+}
+
+.Coinflip h5, .Coinflip h6{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.Coinflip h6{
+    color: #aa9549;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
+.Coinflip p{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #ffc6c1;
+}
+
+.golden{
+    color: #F0E68C;
+    font-size: 30px;
+}
+
+.MuiButton-label{
+    font-family: 'Pathway Gothic One', sans-serif!important;
+    font-size: 15px!important;
+    color: #f0e68c!important;
+}
+
+

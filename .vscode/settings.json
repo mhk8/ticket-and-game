@@ -1,0 +1,8 @@
+{
+  "python.linting.pylintArgs": [
+    "server",
+    "--load-plugins",
+    "pylint_flask,pylint_flask_sqlalchemy"
+  ],
+  "python.linting.pylintEnabled": true,
+}

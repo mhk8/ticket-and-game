@@ -1,0 +1,14 @@
+matrix:
+  include:
+    - language: python
+      python: 3.8
+      script:
+        - flask db upgrade
+        - python -m pylint server --load-plugins "pylint_flask,pylint_flask_sqlalchemy"
+        - python -m unittest discover -s tests -p "*.py"
+    - language: node_js
+      node_js: 12
+      script:
+        - npm run build
+        - npm run lint
+        - npm run test
